@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "09c01fd9-187a-4b13-91d6-db817e0e2271",
+		"name": "Channel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10822530"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ConnectionStringName\": \"TeleWare\",\r\n    \"SpParams\": {\r\n        \"username\": \"shahidone\",\r\n        \"password\": \"shvv@345\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.7ader.net/GeneralApiV11/api/dashboard/token",
+					"protocol": "https",
+					"host": [
+						"www",
+						"7ader",
+						"net"
+					],
+					"path": [
+						"GeneralApiV11",
+						"api",
+						"dashboard",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "channel statistics",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjQzIiwicm9sZSI6IjEiLCJuYmYiOjE3MDUzMDcwMDAsImV4cCI6MTcwNTMxMDYwMCwiaWF0IjoxNzA1MzA3MDAwfQ.Bq7DWpeKKVoicInuIydfKIzR02efSZOLLPfSr7iW86E",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ConnectionStringName\": \"TeleWare\",\r\n    \"StoredProcedureName\": \"Channel.GetDashboardStat\",\r\n    \"SpParams\": {\r\n        \"adminID\": \"43\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.7ader.net/GeneralApiV11/api/general",
+					"protocol": "https",
+					"host": [
+						"www",
+						"7ader",
+						"net"
+					],
+					"path": [
+						"GeneralApiV11",
+						"api",
+						"general"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

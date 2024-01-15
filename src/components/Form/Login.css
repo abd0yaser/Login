@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Cairo";
+  src: url("../../../public/Cairo-VariableFont_slnt\,wght.ttf");
+}
+.container {
+  width: 360px;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Cairo";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 136px;
+  margin-bottom: 66px;
+}
+
+.form {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #9d9d9d;
+  margin-top: 0px;
+}
+
+button {
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  width: 138px;
+  height: 35px;
+
+  background: #f26536;
+  font-family: "Cairo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 10px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+}
+.form {
+  margin-bottom: 62px;
+}
+
+.form input {
+  border: none;
+  padding: 5px;
+  font-family: "Cairo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.08em;
+  width: 100%;
+  outline: none;
+}
+.inputGroup {
+  border-bottom: 1px solid black;
+  text-align: right;
+}

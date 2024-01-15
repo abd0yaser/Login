@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../public/Montserrat-Italic-VariableFont_wght.ttf");
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.Rounded {
+  width: 233px;
+  height: 33px;
+  border-radius: 8px;
+  background-color: #f26536;
+  margin-bottom: 43px;
+  margin-top: 156px;
+  margin-left: 63px;
+
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  align-items: center;
+  display: none;
+}
+.date {
+  margin-right: 21px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 38px;
+  font-family: "Cairo";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.table-1 th {
+  background-color: #f265366e;
+  height: 36px;
+}
+.table-1 td {
+  height: 38px;
+}
+
+.table-2 th {
+  background-color: #f265366e;
+  height: 48px;
+}
+.table-2 td {
+  height: 51px;
+}
+
+.table-2 {
+  margin-bottom: 50px;
+}
